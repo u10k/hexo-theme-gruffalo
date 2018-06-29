@@ -1,0 +1,161 @@
+#comments.vcomment {
+    margin-top: 40px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+    .vheader {
+        .vinput {
+            &:focus {
+                border-bottom: 1px solid @accentColor
+            }
+        }
+    }
+
+    .vsubmit {
+        &:active,
+        &:hover {
+            color: #fff;
+            background: @primaryColor;
+            border-color: @primaryColor;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .4)
+        }
+    }
+
+    .vlist {
+        .vhead{
+            .vsys {
+                padding: .2rem .4rem;
+                line-height: 1;
+                color: #fff;
+                &:nth-child(n+2) {
+                    background: @tag-color-1;
+                    box-shadow: 0 0 8px @tag-color-1;
+                }
+                &:nth-child(n+3) {
+                    background: @tag-color-3;
+                    box-shadow: 0 0 8px @tag-color-3;
+                }
+                &:nth-child(n+4) {
+                    background: @tag-color-4;
+                    box-shadow: 0 0 8px @tag-color-4;
+                }
+                &:nth-child(n+5) {
+                    background: @tag-color-5;
+                    box-shadow: 0 0 8px @tag-color-5;
+                }
+                &:nth-child(n+6) {
+                    background: @tag-color-6;
+                    box-shadow: 0 0 8px @tag-color-6;
+                }
+            }
+            a,
+            .vname {
+                text-shadow: 0 0 1px @secondaryTextColor;
+                &:hover {
+                    color: @accentColor;
+                    text-shadow: 0 0 1px @accentColor;
+                }
+            }
+        }
+        .vcontent{
+            p{
+                color: @primaryTextColor;
+            }
+        }
+        .vfooter{
+            .vat {
+                color: @accentColor
+            }
+        }
+        >.vcard{
+            &:nth-child(n+1){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-1;
+                        box-shadow: 0 0 8px @valine-color-1;
+                    }
+                }
+            }
+            &:nth-child(n+2){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-2;
+                        box-shadow: 0 0 8px @valine-color-2;
+                    }
+                }
+            }
+            &:nth-child(n+3){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-3;
+                        box-shadow: 0 0 8px @valine-color-3;
+                    }
+                }
+            }
+            &:nth-child(n+4){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-4;
+                        box-shadow: 0 0 8px @valine-color-4;
+                    }
+                }
+            }
+            &:nth-child(n+5){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-5;
+                        box-shadow: 0 0 8px @valine-color-5;
+                    }
+                }
+            }
+            &:nth-child(n+6){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-6;
+                        box-shadow: 0 0 8px @valine-color-6;
+                    }
+                }
+            }
+            &:nth-child(n+7){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-7;
+                        box-shadow: 0 0 8px @valine-color-7;
+                    }
+                }
+            }
+            &:nth-child(n+8){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-8;
+                        box-shadow: 0 0 8px @valine-color-8;
+                    }
+                }
+            }
+            &:nth-child(n+9){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-9;
+                        box-shadow: 0 0 8px @valine-color-9;
+                    }
+                }
+            }
+            &:nth-child(n+10){
+                .vhead{
+                    .vsys {
+                        background: @valine-color-10;
+                        box-shadow: 0 0 8px @valine-color-10;
+                    }
+                }
+            }
+        }
+    }
+
+    .vcard {
+        section {
+            border-bottom: 1px solid @borderColor
+        }
+    }
+}
