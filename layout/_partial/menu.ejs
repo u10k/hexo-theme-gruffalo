@@ -11,6 +11,7 @@
         <hgroup class="introduce">
           <h5 class="nickname"><%- config.author %></h5>
           <%- mail_to(theme.email, theme.email, {class: 'mail'}) %>
+          <div style="margin-top: 5px; margin-bottom: 5px; font-size: 92%"><b>文章共 <%- site.posts.length %> 篇，约 <%- totalcount(site) %> 字</b></div>
         </hgroup>
       </div>
     </div>
