@@ -3,7 +3,7 @@ hexo-theme-gruffalo
 
 [![Join the chat at https://gitter.im/hexo-theme-indigo/Lobby](https://badges.gitter.im/hexo-theme-indigo/Lobby.svg)](https://gitter.im/hexo-theme-gruffalo/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](http://cenxiaoer.com/)
+hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer.com/)
 
 > 现有两个主题分支，我的博客中使用的是 card 分支卡片风格主题，master 分支是旧版平铺式风格主题。
 
