@@ -25,18 +25,8 @@ hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer
 8. 支持文章打赏。
 
 ## more
-需要额外安装字数统计插件（感谢dinphy）：
 
-```bash
-npm install --save hexo-wordcount
-```
-
-增加了gruffalo专属样式
-style.less
-```
-@import "_partial/gruffalo";//使用原始样式可以注释这里
-```
-
+[更新日志](https://github.com/dearzoe/hexo-theme-gruffalo/wiki/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
 ## Useage
 
