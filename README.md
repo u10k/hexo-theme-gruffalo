@@ -5,7 +5,13 @@ hexo-theme-gruffalo
 
 hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer.com/)
 
-> 现有两个主题分支，我的博客中使用的是 card 分支卡片风格主题，master 分支是旧版平铺式风格主题。
+>白天模式
+
+![白天模式](http://huwenzhe.com/blogIndex/images/font1.jpg)
+
+>夜间模式
+
+![夜间模式](http://huwenzhe.com/blogIndex/images/font2.jpg)
 
 ## Feature
 
@@ -30,6 +36,7 @@ style.less
 ```
 @import "_partial/gruffalo";//使用原始样式可以注释这里
 ```
+
 
 ## Useage
 
