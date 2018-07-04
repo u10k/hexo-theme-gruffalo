@@ -24,7 +24,7 @@ hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer
 7. 基于静态数据的站内搜索，无第三方侵入。
 8. 支持文章打赏。
 
-## more
+## Updatelog
 
 [更新日志](https://github.com/dearzoe/hexo-theme-gruffalo/wiki/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
