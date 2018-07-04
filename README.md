@@ -24,6 +24,13 @@ hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer
 ```bash
 npm install --save hexo-wordcount
 ```
+
+增加了gruffalo专属样式
+style.less
+```
+@import "_partial/gruffalo";//使用原始样式可以注释这里
+```
+
 ## Useage
 
 [文档 | Document](https://github.com/dearzoe/hexo-theme-gruffalo/wiki)
