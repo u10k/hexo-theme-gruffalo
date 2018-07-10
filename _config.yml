@@ -91,7 +91,7 @@ postMessage: 这里可以写作者留言，标签和 hexo 中所有变量及辅�
 cnzz: false
 
 # 百度统计，如要开启，改为你的 key
-baidu_tongji: ''
+baidu_tongji: '72795d00f0f8823340c6bba6d9a8e7b2'
 
 # 腾讯分析，如要开启，输入站点id
 tajs: false
@@ -125,8 +125,8 @@ gitment: false
 # Valine Comment system. https://valine.js.org
 valine:
   enable: true # 如果你想使用valine，请将值设置为 true
-  appId:  '' # your leancloud appId
-  appKey:  '' # your leancloud appKey
+  appId:  'akn3kbG9bFVRaqucNiS3hqiG-gzGzoHsz' # your leancloud appId
+  appKey:  'MVrbPIeuzKGFpY9ah1QfLOmD' # your leancloud appKey
   notify: true # Mail notify
   verify: true # Verify code
   avatar: mm # Gravatar style : mm/identicon/monsterid/wavatar/retro/hide

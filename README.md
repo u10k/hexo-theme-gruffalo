@@ -1,9 +1,9 @@
-hexo-theme-gruffalo
+hexo-theme-material-indigo
 ================
 
-[![Join the chat at https://gitter.im/hexo-theme-indigo/Lobby](https://badges.gitter.im/hexo-theme-indigo/Lobby.svg)](https://gitter.im/hexo-theme-gruffalo/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/hexo-theme-indigo/Lobby](https://badges.gitter.im/hexo-theme-indigo/Lobby.svg)](https://gitter.im/hexo-theme-indigo/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer.com/)
+Material Design 风格的Hexo主题，基于 Hexo 3.0+ 制作。 [Preview](http://imys.net/)
 
 > 现有两个主题分支，我的博客中使用的是 card 分支卡片风格主题，master 分支是旧版平铺式风格主题。
 
@@ -18,19 +18,16 @@ hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer
 7. 基于静态数据的站内搜索，无第三方侵入。
 8. 支持文章打赏。
 
-## more
-需要额外安装字数统计插件（感谢dinphy）：
-
-```bash
-npm install --save hexo-wordcount
-```
 ## Useage
 
-[文档 | Document](https://github.com/dearzoe/hexo-theme-gruffalo/wiki)
+[文档 | Document](https://github.com/yscoder/hexo-theme-indigo/wiki)
 
 ## ChangeLog
 
 升级前请仔细查看更改内容，如非必要可不升级。
 
-[ChangeLog](https://github.com/dearzoe/hexo-theme-gruffalo/releases)
+[ChangeLog](https://github.com/yscoder/hexo-theme-indigo/releases)
 
+## OtherVersion
+
+* [vuepress-theme-indigo](https://github.com/yscoder/vuepress-theme-indigo)
