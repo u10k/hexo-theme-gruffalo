@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce257d94-4512-40f0-a660-4c1bdad059f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/source/css/_partial/gruffalo.less" afterPath="$PROJECT_DIR$/source/css/_partial/gruffalo.less" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,7 +46,7 @@
               <first_editor relative-caret-position="0">
                 <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding>
-                  <marker date="1529578818542" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
+                  <marker date="1531224189029" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -88,8 +87,8 @@
       <file leaf-file-name="gruffalo.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/css/_partial/gruffalo.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="91" column="43" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+            <state relative-caret-position="566">
+              <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
               <folding>
                 <element signature="e#1503#1712#0" expanded="false" />
               </folding>
@@ -119,7 +118,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-4" />
     <option name="width" value="1940" />
     <option name="height" value="1056" />
@@ -211,7 +210,7 @@
       <workItem from="1530266806298" duration="767000" />
       <workItem from="1530530260695" duration="873000" />
       <workItem from="1530698522308" duration="630000" />
-      <workItem from="1531223982651" duration="77000" />
+      <workItem from="1531223982651" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1530266973613</created>
@@ -227,22 +226,29 @@
       <option name="project" value="LOCAL" />
       <updated>1530530519114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="less">
+      <created>1531224076748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1531224076748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2347000" />
+    <option name="totallyTimeSpent" value="2530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1940" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2502629" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2507903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924107" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -265,7 +271,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="增加了字数统计阅读时间，需要单独安装" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了字数统计阅读时间，需要单独安装" />
+    <MESSAGE value="less" />
+    <option name="LAST_COMMIT_MESSAGE" value="less" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -297,7 +304,7 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1529578818542" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
+              <marker date="1531224189029" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
             </folding>
           </first_editor>
           <second_editor />
@@ -336,7 +343,7 @@
         <state relative-caret-position="483">
           <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
-            <marker date="1529578818542" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
+            <marker date="1531224189029" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
           </folding>
         </state>
       </provider>
@@ -403,7 +410,7 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1529578818542" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
+              <marker date="1531224189029" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
             </folding>
           </first_editor>
           <second_editor />
@@ -413,7 +420,7 @@
         <state relative-caret-position="483">
           <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
           <folding>
-            <marker date="1529578818542" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
+            <marker date="1531224189029" expanded="true" signature="0:11" ph="hexo-theme-gruffalo&#10;==...=====" />
           </folding>
         </state>
       </provider>
@@ -444,8 +451,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/css/_partial/gruffalo.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="91" column="43" lean-forward="true" selection-start-line="91" selection-start-column="43" selection-end-line="91" selection-end-column="43" />
+        <state relative-caret-position="566">
+          <caret line="92" column="23" lean-forward="true" selection-start-line="92" selection-start-column="23" selection-end-line="92" selection-end-column="23" />
           <folding>
             <element signature="e#1503#1712#0" expanded="false" />
           </folding>

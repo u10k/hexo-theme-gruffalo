@@ -9,11 +9,19 @@
     min-height: 210px;
     margin-left: -340px;
     padding: 141px 500px 0px 1200px;
-    color: @textPrimaryColor;
+    color: #fff;
     background: url("http://dearzoe.coding.me/blogImg/images/hero-bg.png");
     text-shadow: 0 1px 1px rgba(0, 0, 0, .2);
     overflow: hidden;
-
+    &.tags-header{
+        padding: 91px 500px 0px 1200px;
+        .grass{
+            bottom: -35px;
+        }
+        .tabs-bar{
+            margin-left: -500px;
+        }
+    }
     .subtitle {
         position: absolute;
         top: 52%;
@@ -23,7 +31,7 @@
         font-weight: 300;
         text-align: center;
         font-size: 13px;
-        color: @primaryTextColor!important;
+        color: #222!important;
     }
 
     .title {
@@ -34,14 +42,14 @@
         width: 70%;
         text-align: center;
         font-size: 20px;
-        color: @primaryTextColor!important;
+        color: #222!important;
     }
 
     .article-category-list-link {
-        color: lighten(@accentColor, 10%);
+        color: lighten(#f45, 10%);
     }
 
-    .container{
+    .container.fade-scale{
         background: url("http://dearzoe.coding.me/blogImg/images/sign-gruffalo-scroll.png") no-repeat;
         z-index: 10;
         width: 300px;
@@ -66,7 +74,7 @@
     .content-header{
         background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon.jpg");
         background-position: 100% 100%;
-        .container{
+        .container.fade-scale{
             opacity: 0;
         }
     }
@@ -90,7 +98,7 @@
         .content-header{
             background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg");
             background-position: 100% 100%;
-            .container{
+            .container.fade-scale{
                 opacity: 0;
             }
         }

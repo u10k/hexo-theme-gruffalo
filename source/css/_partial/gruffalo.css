@@ -1,0 +1,95 @@
+/*2018/7/3修改换咕噜牛样式*/
+#menu .brand {
+  background: none;
+}
+.content-header {
+  position: relative;
+  min-height: 210px;
+  margin-left: -340px;
+  padding: 141px 500px 0px 1200px;
+  color: #fff;
+  background: url("http://dearzoe.coding.me/blogImg/images/hero-bg.png");
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.content-header.tags-header {
+  padding: 91px 500px 0px 1200px;
+}
+.content-header.tags-header .grass {
+  bottom: -35px;
+}
+.content-header.tags-header .tabs-bar {
+  margin-left: -500px;
+}
+.content-header .subtitle {
+  position: absolute;
+  top: 52%;
+  left: 14%;
+  width: 76%;
+  padding-top: 6px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 13px;
+  color: #222!important;
+}
+.content-header .title {
+  position: absolute;
+  top: 42%;
+  left: 10%;
+  font-weight: 500;
+  width: 70%;
+  text-align: center;
+  font-size: 20px;
+  color: #222!important;
+}
+.content-header .article-category-list-link {
+  color: #ff7783;
+}
+.content-header .container.fade-scale {
+  background: url("http://dearzoe.coding.me/blogImg/images/sign-gruffalo-scroll.png") no-repeat;
+  z-index: 10;
+  width: 300px;
+  height: 400px;
+  background-size: 100% 100%;
+  background-position: 0 25px;
+  bottom: 0;
+  right: 0%;
+}
+.content-header .grass {
+  background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-foreground.png");
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  bottom: -27px;
+  left: 19px;
+  margin: 0;
+}
+.night-mode .content-header {
+  background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon.jpg");
+  background-position: 100% 100%;
+}
+.night-mode .content-header .container.fade-scale {
+  opacity: 0;
+}
+@media screen and (max-width: 760px) {
+  .content-header {
+    position: relative;
+    min-height: 210px;
+    margin-left: 0;
+    padding: 0px;
+    color: #fff;
+    background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-phone.png");
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  .content-header .grass {
+    display: none;
+  }
+  .night-mode .content-header {
+    background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg");
+    background-position: 100% 100%;
+  }
+  .night-mode .content-header .container.fade-scale {
+    opacity: 0;
+  }
+}

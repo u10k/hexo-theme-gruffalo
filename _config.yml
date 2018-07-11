@@ -20,19 +20,19 @@ menu:
   th-list:
     text: 分类
     url: /categories
-  weibo:
-    text: 微博
-    url: https://weibo.com/u/1920556877
-    target: _blank
+  #weibo:
+    #text: 微博
+    #url: https://weibo.com/u/1920556877
+    #target: _blank
   github:
       url: https://github.com/cenxiaoer
       target: _blank
-  link:
-    text: 测试
-    url: /custom
+  #link:
+    #text: 测试
+    #url: /custom
 
 # 你的头像url
-avatar: /img/avatar.jpg
+avatar: http://dearzoe.coding.me/blogImg/images/gruffalo.jpg
 # avatar link
 avatar_link: /
 # 头像背景图
@@ -41,7 +41,7 @@ brand: /img/brand.jpg
 favicon: /favicon.ico
 
 # email
-#email: 634206017@qq.com
+email: 825846102@qq.com
 
 # 设置 Android L Chrome 浏览器状态栏颜色
 color: '#3F51B5'
