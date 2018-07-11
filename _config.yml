@@ -22,7 +22,7 @@ menu:
 #    url: /categories
   npms:
       text: NPM
-      url: /npm
+      url: /npms
   #weibo:
     #text: 微博
     #url: https://weibo.com/u/1920556877
@@ -72,7 +72,7 @@ share: true
 
 # 是否开启打赏，关闭 reward: false
 reward:
-  title: 谢谢大爷~
+  title: thx
   wechat: /img/avatar.jpg     #微信，关闭设为 false
   alipay: /img/avatar.jpg     #支付宝，关闭设为 false
 

@@ -38,7 +38,7 @@
                 <%- config.subtitle %>
             <% } else if (page.layout === 'page' && page.description) {%>
                 <%- page.description %>
-            <% } else { %>
+            <% } else if (is_archive()) {%>
                 <%- subtitle %>
             <% } %>
         </h5>
