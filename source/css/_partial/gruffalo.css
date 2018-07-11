@@ -76,20 +76,38 @@
     position: relative;
     min-height: 210px;
     margin-left: 0;
-    padding: 0px;
+    padding: 0;
     color: #fff;
-    background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-phone.png");
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
+  }
+  .content-header .title {
+    left: 16%;
   }
   .content-header .grass {
     display: none;
   }
+  .content-header.tags-header {
+    padding: 0;
+    background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-phone.png") no-repeat;
+  }
+  .content-header.tags-header .tabs-bar {
+    z-index: 10;
+    margin: -44px 0 0 0;
+  }
   .night-mode .content-header {
-    background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg");
+    background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg") no-repeat;
     background-position: 100% 100%;
   }
   .night-mode .content-header .container.fade-scale {
     opacity: 0;
+  }
+  .night-mode .content-header.tags-header {
+    padding: 0;
+    background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg") no-repeat;
+  }
+  .night-mode .content-header.tags-header .tabs-bar {
+    z-index: 10;
+    margin: -44px 0 0 0;
   }
 }

@@ -85,21 +85,39 @@
         position: relative;
         min-height: 210px;
         margin-left: 0;
-        padding: 0px;
+        padding: 0;
         color: #fff;
-        background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-phone.png");
         text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
         overflow: hidden;
+        .title {
+            left: 16%;
+        }
         .grass{
             display: none;
+        }
+        &.tags-header{
+            padding: 0;
+            background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-phone.png") no-repeat;
+            .tabs-bar{
+                z-index: 10;
+                margin:-44px 0 0 0;
+            }
         }
     }
     .night-mode{
         .content-header{
-            background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg");
+            background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg") no-repeat;
             background-position: 100% 100%;
             .container.fade-scale{
                 opacity: 0;
+            }
+            &.tags-header{
+                padding: 0;
+                background: url("http://dearzoe.coding.me/blogImg/images/hero-bg-moon-phone.jpg") no-repeat;
+                .tabs-bar{
+                    z-index: 10;
+                    margin:-44px 0 0 0;
+                }
             }
         }
     }
