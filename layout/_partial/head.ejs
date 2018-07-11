@@ -13,11 +13,11 @@
     <link rel="canonical" href="<%- (theme.canonical + url_for(page.path)).replace(/index\.html$/, '') %>">
     <% }%>
     <%
-        var title = page.title;
-
+        var title = page.title,
+            subtitle = page.subtitle;
         if (is_archive()){
             title = theme.archives_title || 'Archives';
-
+            subtitle = theme.archives_subtitle || 'Archives';
             if (is_month()){
             title += ': ' + page.year + '/' + page.month;
             } else if (is_year()){
@@ -25,8 +25,10 @@
             }
         } else if (is_category()){
             title = (theme.categories_title || 'Categories') + ': ' + page.category;
+            subtitle = theme.categories_subtitle || 'Categories';
         } else if (is_tag()){
             title = (theme.tags_title || 'Tags') + ': ' + page.tag;
+            subtitle = theme.tags_subtitle || 'Tags';
         }
     %>
     <title><% if (title){ %><%= title %> | <% } %><%= config.title %><% if (config.subtitle){ %> | <%= config.subtitle %><% } %></title>

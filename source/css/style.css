@@ -4002,8 +4002,8 @@ pre .javascript .function {
 }
 .post-content p a,
 .post-content li a {
-  color: #f45;
-  border-bottom: 1px dotted #ffaab2;
+  color: #39f;
+  border-bottom: 1px dotted #3d9eff;
   word-break: break-all;
 }
 .post-content p a:hover,
@@ -4370,6 +4370,12 @@ pre .javascript .function {
 }
 .body-wrap blockquote .des {
   color: #89a;
+}
+.night-mode .npm-item {
+  color: #b6b6b6 !important;
+}
+.night-mode blockquote {
+  background-color: #353535 !important;
 }
 .page-header {
   text-align: center;

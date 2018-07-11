@@ -17,9 +17,9 @@ menu:
   tags:
     text: 标签
     url: /tags
-  th-list:
-    text: 分类
-    url: /categories
+#  th-list:
+#    text: 分类
+#    url: /categories
   npms:
       text: NPM
       url: /npm
@@ -51,8 +51,11 @@ color: '#3F51B5'
 
 # 页面标题
 tags_title: 这里可以选择你想看的标签
+tags_subtitle: ''
 archives_title: 历史档案
+archives_subtitle: 你想看的所有的历史档案都在<br/> 这里了，如果你觉得不好查找<br/> ，可以搜索或者按照标签类别<br/> 查询
 categories_title: 这里可以选择你想看的类别
+categories_subtitle: ''
 
 # 文章截断
 excerpt_render: false

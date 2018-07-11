@@ -19,3 +19,9 @@
 .body-wrap blockquote .des {
   color: #89a;
 }
+.night-mode .npm-item {
+  color: #b6b6b6 !important;
+}
+.night-mode blockquote {
+  background-color: #353535 !important;
+}
