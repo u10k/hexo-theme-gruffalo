@@ -1,0 +1,21 @@
+.body-wrap .npm-avatar {
+  text-align: center;
+}
+.body-wrap .npm-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.body-wrap .npm-item {
+  font-size: 15px;
+}
+.body-wrap .npm-item a.item-text {
+  margin-right: 10px;
+}
+.body-wrap blockquote .line {
+  display: inline-block;
+  width: 500px;
+}
+.body-wrap blockquote .des {
+  color: #89a;
+}

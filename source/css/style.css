@@ -1180,6 +1180,10 @@
 .icon-archives:before {
   content: "\f187";
 }
+.icon-npm:before,
+.icon-npms:before {
+  content: "\f1b2";
+}
 .icon-bug:before {
   content: "\f188";
 }
@@ -4012,7 +4016,7 @@ pre .javascript .function {
 }
 .post-content strong {
   font-weight: 600;
-  color: #3f51b5;
+  color: #f45;
 }
 .post-content strong a {
   border-color: #f45;
@@ -4101,7 +4105,7 @@ pre .javascript .function {
 .post-content blockquote {
   position: relative;
   padding: 16px 20px;
-  border-left: 4px solid #3f51b5;
+  border-left: 4px solid #f45;
   color: #6f6f6f;
   background: #f5f5f5;
   font-size: 14px;
@@ -4345,6 +4349,27 @@ pre .javascript .function {
   .archive-article {
     padding: 16px 16px 0;
   }
+}
+.body-wrap .npm-avatar {
+  text-align: center;
+}
+.body-wrap .npm-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.body-wrap .npm-item {
+  font-size: 15px;
+}
+.body-wrap .npm-item a.item-text {
+  margin-right: 10px;
+}
+.body-wrap blockquote .line {
+  display: inline-block;
+  width: 500px;
+}
+.body-wrap blockquote .des {
+  color: #89a;
 }
 .page-header {
   text-align: center;
@@ -5181,7 +5206,7 @@ pre .javascript .function {
 .content-header .title {
   position: absolute;
   top: 42%;
-  left: 10%;
+  left: 16%;
   font-weight: 500;
   width: 70%;
   text-align: center;
@@ -5226,9 +5251,6 @@ pre .javascript .function {
     color: #fff;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-  }
-  .content-header .title {
-    left: 16%;
   }
   .content-header .grass {
     display: none;

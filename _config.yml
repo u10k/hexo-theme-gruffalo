@@ -20,12 +20,15 @@ menu:
   th-list:
     text: 分类
     url: /categories
+  npms:
+      text: NPM
+      url: /npm
   #weibo:
     #text: 微博
     #url: https://weibo.com/u/1920556877
     #target: _blank
   github:
-      url: https://github.com/cenxiaoer
+      url: https://github.com/dearzoe
       target: _blank
   #link:
     #text: 测试

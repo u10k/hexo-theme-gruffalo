@@ -1,0 +1,34 @@
+<%- partial('_partial/header', {
+    title: locals.title || theme.npms_title,
+    hdClass: 'npms-header'
+}) %>
+<div class="container body-wrap fade" style="display: none;">
+    <%
+        if(is_tag()) { %>
+            <div class="waterfall">
+          <% page.posts.each(function(post){ %>
+
+            <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+
+        <% }) %>
+            </div>
+        <% } else {
+            site.npms.each(function(npm){
+                if(npm.length){
+            %>
+
+            <h3 class="archive-separator" id="npm-<%=npm.name %>"><%=npm.name %></h3>
+
+            <div class="waterfall">
+            <% npm.posts.each(function(post){  %>
+
+                <%- partial('_partial/archive', {post: post, date_format: config.date_format}) %>
+
+            <% }) %>
+            </div>
+            <% }
+            })
+        }
+    %>
+    <%- partial('_partial/paginator') %>
+</div>
