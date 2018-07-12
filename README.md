@@ -22,13 +22,13 @@ git clone https://github.com/dearzoe/hexo-theme-gruffalo.git themes/gruffalo
 ## 依赖安装
 
 ```js
-//Less
+//Less(主题默认使用 less 作为 css 预处理工具。)
 $ npm install hexo-renderer-less --save
-//Feed
+//Feed(用于生成 rss。)
 $ npm install hexo-generator-feed --save
-//Json-content
+//Json-content(用于生成静态站点数据，用作站内搜索的数据源。)
 $ npm install hexo-generator-json-content --save
-//QRCode
+//QRCode(用于生成微信分享二维码。)
 $ npm install hexo-helper-qrcode --save
 ```
 
