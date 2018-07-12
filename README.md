@@ -13,6 +13,25 @@ hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [预览](http://cenxiaoer
 
 ![夜间模式](http://huwenzhe.com/blogIndex/images/font2.jpg)
 
+## 主题安装
+
+```ja
+git clone https://github.com/dearzoe/hexo-theme-gruffalo.git themes/gruffalo
+```
+
+## 依赖安装
+
+```js
+//Less
+$ npm install hexo-renderer-less --save
+//Feed
+$ npm install hexo-generator-feed --save
+//Json-content
+$ npm install hexo-generator-json-content --save
+//QRCode
+$ npm install hexo-helper-qrcode --save
+```
+
 ## Feature
 
 1. 仅支持 IE10+ 等现代浏览器。
