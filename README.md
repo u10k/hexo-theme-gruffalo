@@ -2,7 +2,7 @@ hexo-theme-gruffalo
 ================
 
 [![Join the chat at https://gitter.im/hexo-theme-indigo/Lobby](https://badges.gitter.im/hexo-theme-indigo/Lobby.svg)](https://gitter.im/hexo-theme-gruffalo/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)]
+![Thanks](https://img.shields.io/badge/Say%20Thanks-💗-ff69b4.svg)
 
 hexo-theme-gruffalo主题，基于 Hexo 3.0+ 制作。 [【博客1】](http://cenxiaoer.com/) [【博客2】](http://dearzoe.coding.me/)
 
