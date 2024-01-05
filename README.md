@@ -60,3 +60,7 @@ npm install --save hexo-wordcount
 
 [ChangeLog](https://github.com/dearzoe/hexo-theme-gruffalo/releases)
 
+## Star
+
+[![Star History Chart](https://api.star-history.com/svg?repos=u10k/hexo-theme-gruffalo&type=Date)](https://star-history.com/#u10k/hexo-theme-gruffalo&Date)
+
